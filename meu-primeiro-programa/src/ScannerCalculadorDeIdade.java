@@ -11,5 +11,7 @@ public class ScannerCalculadorDeIdade {
         int idade = anoAtual -  anoDeNascimento;
 
         System.out.println("Idade: " + idade);
+
+        input.close();
     }
 }
