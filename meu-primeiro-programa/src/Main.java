@@ -18,9 +18,18 @@ public class Main {
 
         nomeText.setBounds(100, 50, 100, 30);
 
+        JButton enviar = new JButton("Enviar");
+
+        enviar.setBounds(50, 100, 100, 30);
+        enviar.addActionListener(event -> {
+            String digitado = nomeText.getText();
+            JOptionPane.showMessageDialog(frame, "Nome: " + digitado);
+        });
+
         frame.setLayout(null);
         frame.getContentPane().add(nome);
         frame.getContentPane().add(nomeText);
+        frame.getContentPane().add(enviar);
 
         frame.setVisible(true);
     }
