@@ -13,6 +13,12 @@ public class CalculadoraDeMedia {
 
         System.out.println("Media: " + media);
 
+        if (media >= 6) {
+            System.out.println("Passou!");
+        } else {
+            System.out.println("Nao passou!");
+        }
+
         sc.close();
     }
 }
