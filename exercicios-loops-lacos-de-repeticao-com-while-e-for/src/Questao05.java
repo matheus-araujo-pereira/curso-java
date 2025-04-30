@@ -1,3 +1,7 @@
+// Escreva um programa Java que imprima os números de 1 a 100, substituindo os múltiplos de 3 por "Fizz" e os múltiplos de 5 por "Buzz".
+// Para os números que são múltiplos de ambos, imprima "FizzBuzz".
+// Pode utilizar qualquer laço de repetição (while ou for).
+
 public class Questao05 {
 
     public static void main(String[] args) {
