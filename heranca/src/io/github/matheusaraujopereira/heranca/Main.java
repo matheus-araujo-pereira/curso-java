@@ -4,11 +4,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-    Panda panda = new Panda();
-    panda.setNome("Panda");
-    panda.setIdade(5);
-    panda.setCorPrimaria("Preto");
-    panda.setCorSecundaria("Branco");
+    Panda panda = new Panda(5, "Preto", "Branco");
     panda.andar();
     panda.comer();
     panda.dormir();
@@ -27,10 +23,7 @@ public class Main {
     panda.dormir();
     panda.andar();
 
-    Hipopotamo hipopotamo = new Hipopotamo();
-    hipopotamo.setNome("Hipopótamo");
-    hipopotamo.setIdade(8);
-    hipopotamo.setForcaDaMordida(2000);
+    Hipopotamo hipopotamo = new Hipopotamo(8, 2000);
     hipopotamo.andar();
     hipopotamo.comer();
     hipopotamo.dormir();
