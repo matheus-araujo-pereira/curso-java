@@ -1,11 +1,14 @@
 public class Cliente {
 
+    public static int QUANTIDADE_DE_CLIENTES;
+
     private String cpf;
     private String nome;
 
     Cliente(String cpf, String nome) {
         this.cpf = cpf;
         this.nome = nome;
+        incrementarClientes();
     }
 
     public void setCpf(String cpf) {
@@ -22,5 +25,9 @@ public class Cliente {
 
     public String getNome() {
         return nome;
+    }
+
+    public static void incrementarClientes() {
+        Cliente.QUANTIDADE_DE_CLIENTES++;
     }
 }

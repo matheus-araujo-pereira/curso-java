@@ -30,5 +30,7 @@ public class Main {
 
         contaMatheus.visualizarSaldo();
         contaTahiane.visualizarSaldo();
+
+        System.out.println("Quantidade de clientes: " + Cliente.QUANTIDADE_DE_CLIENTES);
     }
 }
