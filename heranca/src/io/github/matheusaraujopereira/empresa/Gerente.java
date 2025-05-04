@@ -6,4 +6,9 @@ public class Gerente extends Funcionario {
   public double calcularBonificacao() {
     return (getSalario() / 10) + 100;
   }
+
+  @Override
+  public double calcularBonificacaoAnual() {
+    return (getSalario() * 3) + 200;
+  }
 }
