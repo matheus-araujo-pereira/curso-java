@@ -8,7 +8,7 @@ public class CalcularIdadeComCondicao {
 
         int anoAtual = input.nextInt();
         int anoDeNascimento = input.nextInt();
-        int idade = anoAtual -  anoDeNascimento;
+        int idade = anoAtual - anoDeNascimento;
 
         if (idade < 18) {
             System.out.println("Menor de idade!");
@@ -17,5 +17,7 @@ public class CalcularIdadeComCondicao {
         } else {
             System.out.println("Maior de idade!");
         }
+
+        input.close();
     }
 }
